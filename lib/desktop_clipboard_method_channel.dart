@@ -19,11 +19,11 @@ class MethodChannelDesktopClipboard extends DesktopClipboardPlatform {
       return res;
     } catch (e) {
       developer.log("copyImageByPath: ${e.toString()}",name: "DesktopClipboard");
-      return false;
     }
     return false;
   }
 
+  @override
   Future<bool?> copyImage(Uint8List image) async {
     try {
       final res =  await methodChannel.invokeMethod<bool>('copyImage', {
@@ -32,7 +32,6 @@ class MethodChannelDesktopClipboard extends DesktopClipboardPlatform {
       return res;
     } catch (e) {
       developer.log("copyImage: ${e.toString()}",name: "DesktopClipboard");
-      return false;
     }
     return false;
   }
