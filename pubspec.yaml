@@ -1,7 +1,7 @@
 name: desktop_clipboard
-description: A new Flutter plugin project.
+description: A flutter plugin which could write images to clipboard.
 version: 0.0.1
-homepage:
+homepage: https://github.com/LeetaoGoooo/desktop_clipboard.git
 
 environment:
   sdk: '>=3.0.5 <4.0.0'

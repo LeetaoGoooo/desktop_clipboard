@@ -10,6 +10,8 @@ A flutter plugin which could write images to clipboard.
 | iOS     | ❌ |
 | Web     | ❌ |
 
+[![Desktop Clipboard](http://img.youtube.com/vi/PDhF-ZJaJDU/0.jpg)](http://www.youtube.com/watch?v=PDhF-ZJaJDU "Video Title")
+
 ## Getting Started
 
 1. add `package:pasteboard` to `pubspec.yaml`
