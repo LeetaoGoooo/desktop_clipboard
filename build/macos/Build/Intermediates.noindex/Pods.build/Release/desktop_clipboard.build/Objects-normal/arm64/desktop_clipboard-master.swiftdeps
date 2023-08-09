@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "0afa80e279cf150b48d74f91f0e22d5160c70a9c32a88bb86bd56d4255ef549b"
+build_start_time: [1689386393, 950634000]
+build_end_time: [1689386409, 379716000]
+inputs:
+  "/Users/leetao/workspace/desktop_clipboard/macos/Classes/DesktopClipboardPlugin.swift": [1689331832, 577450418]

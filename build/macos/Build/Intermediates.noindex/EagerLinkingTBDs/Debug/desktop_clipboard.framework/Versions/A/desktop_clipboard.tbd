@@ -1,0 +1,20 @@
+--- !tapi-tbd
+tbd-version:     4
+targets:         [ x86_64-macos ]
+flags:           [ not_app_extension_safe ]
+install-name:    '@rpath/desktop_clipboard.framework/Versions/A/desktop_clipboard'
+swift-abi-version: 7
+exports:
+  - targets:         [ x86_64-macos ]
+    symbols:         [ '_$s17desktop_clipboard22DesktopClipboardPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', 
+                       '_$s17desktop_clipboard22DesktopClipboardPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTq', 
+                       '_$s17desktop_clipboard22DesktopClipboardPluginC8register4withySo07FlutterE9Registrar_p_tFZ', 
+                       '_$s17desktop_clipboard22DesktopClipboardPluginCACycfC', '_$s17desktop_clipboard22DesktopClipboardPluginCACycfc', 
+                       '_$s17desktop_clipboard22DesktopClipboardPluginCMa', '_$s17desktop_clipboard22DesktopClipboardPluginCMn', 
+                       '_$s17desktop_clipboard22DesktopClipboardPluginCN', '_$s17desktop_clipboard22DesktopClipboardPluginCfD', 
+                       _Swift50Overrides, _Swift51Overrides, __Z34_swiftoverride_class_getSuperclassPKN5swift14TargetMetadataINS_9InProcessEEE, 
+                       __ZN5swift34swift50override_conformsToProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEPFPKNS_18TargetWitnessTableIS1_EES4_S8_E, 
+                       __ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E, 
+                       _desktop_clipboardVersionNumber, _desktop_clipboardVersionString ]
+    objc-classes:    [ PodsDummy_desktop_clipboard, _TtC17desktop_clipboard22DesktopClipboardPlugin ]
+...

@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/leetao/workspace/desktop_clipboard/example/build/macos/Build/Products/Debug/desktop_clipboard/desktop_clipboard.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/leetao/workspace/desktop_clipboard/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_clipboard.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/leetao/workspace/desktop_clipboard/example/build/macos/Build/Products/Debug/desktop_clipboard/desktop_clipboard.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "desktop_clipboard-Swift.h",
+      'external-contents': "/Users/leetao/workspace/desktop_clipboard/example/build/macos/Build/Intermediates.noindex/Pods.build/Debug/desktop_clipboard.build/unextended-interface-header.h",
+    }]
+    }]
+}

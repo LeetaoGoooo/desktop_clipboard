@@ -1,0 +1,11 @@
+framework module desktop_clipboard {
+  umbrella header "desktop_clipboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module desktop_clipboard.Swift {
+  header "desktop_clipboard-Swift.h"
+  requires objc
+}
